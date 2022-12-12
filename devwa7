@@ -1,0 +1,7 @@
+import random
+
+mo_pou_kripte = "Judou est grande"
+kriptaj=lambda mo_pou_kripte: "-".join ([str(ord(elt)-97) for elt in mo_pou_kripte.lower()])
+print(kriptaj(mo_pou_kripte))
+
+
